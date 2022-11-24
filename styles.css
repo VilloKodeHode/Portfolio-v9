@@ -275,6 +275,7 @@ section h2:first-child {
   justify-content: center;
   align-items: center;
   border-bottom: 5px solid #eecb52;
+  padding: 5em 1em;
 }
 
 .container-1 h2 {
@@ -318,6 +319,7 @@ p.description {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   border-bottom: 5px solid #eecb52;
+  padding: 5em 1em;
 }
 
 .container-3 h2 {
@@ -340,7 +342,7 @@ p.description {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5em 0em 5em 0em;
+  padding: 5em 1em;
   margin-bottom: 5em;
   border-bottom: 5px solid #eecb52;
 }

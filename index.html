@@ -4,6 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Turret+Road&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap"
       rel="stylesheet"
@@ -19,7 +33,7 @@
         <!-- <img src="./Images/Half-flower.png" /> -->
         <li><a href="#home">Home</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#footer">Contact</a></li>
       </ul>
     </nav>
     <!-- <div class="nav_block"></div> -->
@@ -27,19 +41,28 @@
 
     <header>
       <article class="header_text">
-        <h1>Hello there.<br />I'm <span>Joakim Villo</span></h1>
-        <!-- <h2>Who am I?</h2> -->
+        <h1 id="home">Heisann!<br />Jeg er <br /><span>Joakim Villo</span></h1>
         <p>
+          For tiden går jeg på kurs om Front-End-Development<br />
+          og bruker endeløse timer på å lære så mye jeg kan om koding og design.
+          <br />
+          Jeg nyter hvert eneste sekund og blir bare mer og mer interessert i å
+          lære mer!
+        </p>
+        <!-- <p>
           Im currently a programing-student,<br />
           spending countless hours throughout the days learning code and design.
           <br />
           Every minute coding is an opportunity to learn, and i love it.
-        </p>
+        </p> -->
       </article>
 
       <div class="wrapper">
-        <a href="./Images/CV/Colored CV text.pdf" class="cv standard"
-          ><img class="cv standard" src="./Images/CV/Colored CV pic.png" />
+        <a href="./Images/CV/Standard CV space.pdf" class="cv standard"
+          ><img
+            class="cv standard"
+            src="./Images/CV/Standard CV pic space.png"
+          />
           <p class="cv">Full CV</p></a
         >
       </div>
@@ -47,32 +70,36 @@
       <img class="hero" src="./Images/Hero/Joakim-bilde-transperant.png" />
 
       <div class="wrapper">
-        <a href="./Images/CV/Fancy CV.png" class="cv fancy"
-          ><img class="cv fancy" src="./Images/CV/Fancy CV.png" />
+        <a href="./Images/CV/Fancy CV space.png" class="cv fancy"
+          ><img class="cv fancy" src="./Images/CV/Fancy CV space.png" />
           <p class="cv">Short CV</p></a
         >
       </div>
     </header>
 
-    <div class="pitch">
+    <div class="pitch" id="about">
       <p>
         <span>Jeg elsker å kode.</span><br />
         Jeg koder masse på fritiden og synes det er kjempegøy å lære noe nytt.
         Mestringsfølelsen av å få til noe som jeg har sittet fast med lenge er
-        helt fantastisk.
+        helt fantastisk. Mulighetene som åpner seg når man forstår noe nytt gjør
+        at man så å si aldri kan klare å lære alt, som jeg synes er utrolig
+        motiverende. Det vil si at jeg alltid kan lære noe nytt i dette faget!
       </p>
       <p>
         <span
           >Jeg er kreativ, utadvendt, har stå-på vilje og en god
           lag-spiller.</span
         ><br />
+        Jeg er ekstremt motivert og elsker å løse problemer for å få til noe.
         Andre sier jeg er i tillegg kunnskapsrik, hjelpsom, lærevillig og gir
         alltid det lille ekstra.
       </p>
       <p>
         <span>Å bidra i arbeidsmiljøet er for meg veldig viktig.</span><br />
         Det å hjelpe andre og motta hjelp med åpne hender er utrolig viktig i et
-        team Jeg liker veldig godt å hjelpe andre med problemer som oppstår og
+        team. Dette er definitivt meg og slik jeg ønsker at et arbeidsted skal
+        være. Jeg liker veldig godt å hjelpe andre med problemer som oppstår og
         liker også å få hjelp av de som kan noe bedre enn meg. Å hjelpe andre er
         en veldig fin måte å lære på, men samtidig får man sett problemer og
         løsninger fra en annen side og lære kanskje selv enn bedre måte å gjøre
@@ -81,13 +108,15 @@
       <p>
         <span>Mitt ønske er å jobbe med UI og UX.</span><br />
         Jeg har som mål å lære så mye som mulig om dette og i tillegg mer
-        web-design. Jeg håper å komme i et arbeidsmiljø som liker kode, design,
-        team-arbeid, kompetanse-heving og kvalitet.
+        web-design. JavaScript lærer jeg nå, men jeg har et veldig sterkt ønske
+        å utvide repertoaret mitt med andre kode-språk. Jeg håper å komme i et
+        arbeidsmiljø som liker kode, design, team-arbeid, kompetanse-heving og
+        kvalitet.
       </p>
     </div>
 
     <main>
-      <section class="container-1" id="Knowledge">
+      <section class="container-1" id="knowledge">
         <!--TODO: Try diving figure classes together to categorize skills -->
         <h2>Knowledge</h2>
 
@@ -138,7 +167,7 @@
           </figure>
         </div>
 
-        <h3>Upload stuff</h3>
+        <h3>Repository</h3>
         <div style="display: grid">
           <figure class="img_wrap">
             <p class="description">Git</p>
@@ -146,46 +175,71 @@
           </figure>
           <figure class="img_wrap">
             <p class="description">GitHub</p>
-            <img src="./Images/Knowledge/GitHub.png" alt="GitHub" />
+            <a href="https://github.com/VilloKodeHode"
+              ><img src="./Images/Knowledge/GitHub.png" alt="GitHub"
+            /></a>
+            <a href="https://github.com/VilloKodeHode"
+              ><p class="description">(link)</p></a
+            >
           </figure>
         </div>
+
+        <!-- <a href="https://github.com/VilloKodeHode "
+          ><img src="./Images/Knowledge/GitHub.png" alt="GitHub"
+        /></a> -->
 
         <!--TODO: More figures (up to 4 in a div) can be added here. Works properly with page-->
       </section>
 
       <!-- <div class="spacer"></div> -->
 
-      <section class="container-3" id="Skills">
+      <section class="container-3" id="skills">
         <h2>My skills</h2>
         <div class="wrapper">
           <figure>
-            <h3>Brainstorming</h3>
+            <h3>Teamwork</h3>
             <img src="./Images/Brainstorming.png" />
-            <p>Text</p>
+            <p>
+              Jeg er veldig glad i å<br />
+              samarbeide med andre.
+            </p>
           </figure>
           <figure>
-            <h3>Coding</h3>
+            <h3>Problemsolving</h3>
             <img src="./Images/MonitorCode.png" />
-            <p>Text</p>
+            <p>
+              Problemløsning er noe jeg<br />
+              synes er kjempegøy.
+            </p>
           </figure>
           <figure>
-            <h3>Responsive</h3>
+            <h3>Responsive design</h3>
             <img src="./Images/Responsive.png" />
-            <p>Text</p>
+            <p>
+              Denne nettsiden har jeg lagd for<br />
+              å lære meg responsive design.<br />
+              Veldig lærerikt!
+            </p>
           </figure>
         </div>
       </section>
       <!--TODO: Add proper text, fix. Images-->
       <!--! Maybe use flex here? flex-wrap?-->
 
-      <section class="container-4" id="Projects">
-        <h2>Projects</h2>
+      <section class="container-4" id="projects">
+        <h2>Projects (so far)</h2>
         <div class="wrapper">
           <figure class="img_wrap">
-            <h3>Project 1</h3>
-            <img src="./Images/Project1.avif" />
+            <h3>My first DOMS</h3>
+            <a href="https://villokodehode.github.io/First-DOMS/"
+              ><img src="./Images/First DOMS.png"
+            /></a>
+            <a href="./Images/First DOMS.png"
+              ><p class="description">(link)</p></a
+            >
           </figure>
-          <figure class="img_wrap">
+
+          <!-- <figure class="img_wrap">
             <h3>Project 2</h3>
             <img src="./Images/Project2.avif" />
           </figure>
@@ -208,12 +262,39 @@
           <figure class="img_wrap">
             <h3>Project 7</h3>
             <img src="./Images/Project7.jpg" />
-          </figure>
+          </figure> -->
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <p>The footer. Section not completed</p>
+
+    <!-- Under construction -->
+    <footer class="footer" id="footer">
+      <div style="grid-area: contact">
+        <h3>Contact information:</h3>
+        <div class="inline">
+          <img src="./Images/phone.png" />
+          <p>+47 932 85 044</p>
+        </div>
+        <div class="inline">
+          <img src="./Images/email.png" />
+          <p>VilloKodeHode@Gmail.com</p>
+        </div>
+      </div>
+
+      <h2 style="grid-area: logo"><span>JV</span></h2>
+
+      <div class="navigate" style="grid-area: navigate">
+        <h3>Navigate</h3>
+        <div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#knowledge">Knowledge</a></li>
+            <li><a href="#skills">My skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

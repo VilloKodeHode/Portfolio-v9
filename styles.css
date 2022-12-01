@@ -473,6 +473,7 @@ p.description {
 
 .container-3 figure {
   margin: 1vw;
+  padding: 0.5vw 0;
   border: 1px solid #9bb6ff;
   box-shadow: 0 0 20px #9bb6ff;
 }

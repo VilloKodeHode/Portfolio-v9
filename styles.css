@@ -471,6 +471,12 @@ p.description {
   grid-column: 1/4;
 }
 
+.container-3 figure {
+  margin: 1vw;
+  border: 1px solid #9bb6ff;
+  box-shadow: 0 0 20px #9bb6ff;
+}
+
 .container-3 img {
   backdrop-filter: blur(2px);
   background-color: #9ca3db80;
@@ -491,6 +497,8 @@ p.description {
 
 .container-4 figure.img_wrap {
   grid-row-start: 2;
+  border: 1px solid #9bb6ff;
+  box-shadow: 0 0 20px #9bb6ff;
   transition: 0.5s ease-in-out;
 }
 

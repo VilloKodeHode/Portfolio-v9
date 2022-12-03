@@ -406,7 +406,7 @@ img.cv.fancy:hover {
   flex-direction: column;
   padding: 5em 2em;
   z-index: 90;
-  margin: 20vw 3em;
+  margin: 10vw 3em;
   /* margin-inline: 3em; */
 }
 
@@ -467,6 +467,9 @@ section.knowledge {
 
 .myknowledge {
   grid-area: myknowledge;
+  display: flex;
+  flex-direction: column;
+  align-content: right;
 }
 
 .knowledge figure.img_wrap {
@@ -540,11 +543,14 @@ p.description {
   border: 1px solid #9bb6ff;
   box-shadow: 0 0 20px #9bb6ff;
   transition: 0.5s ease-in-out;
+  margin: 1em;
 }
 
 .container-4 img {
   margin: 0.5em;
   height: 10em;
+  /* border: 1px solid #9bb6ff; */
+  box-shadow: 0 0 20px #9bb6ff;
 }
 
 /*////////////////////////////////////////*/
@@ -660,7 +666,7 @@ footer a {
   section {
     display: grid;
     grid-template-areas: "myknowledge myskills";
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
   }
 }
 

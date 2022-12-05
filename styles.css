@@ -289,7 +289,7 @@ header {
   grid-template-columns: 1fr 2fr;
   z-index: 1;
   padding-top: 50px;
-  border-bottom: #9ca3db6c solid 25px;
+  border-bottom: #12003eb7 solid 25px;
 }
 
 article.header_text {
@@ -306,8 +306,8 @@ article.header_text {
 }
 article.header_text2 p {
   text-align: center;
-  margin-inline: 1vw;
-  transform: translateY(-5em);
+  /* margin-inline: 1vw; */
+  transform: translateY(-8vw);
 }
 
 /* *Header text */
@@ -321,6 +321,7 @@ header img.hero {
   /* justify-self: center; */
   height: 18vw;
   min-height: 250px;
+  max-height: 300px;
   border: 1px solid #9bb6ff;
   box-shadow: 0 0 20px #9bb6ff;
   background-color: #12003e94;
@@ -457,7 +458,7 @@ section {
 /* * Knowledge section */
 /*////////////////////////*/
 
-/*! GJØR MINDRE. Kan combinere sammen med skills section */
+/*! GJØR MINDRE. Kan combinere sammen med skills section. Døne */
 
 section.knowledge {
   /* align-items: center; */
@@ -615,7 +616,7 @@ footer a {
       "footer        footer";
   }
 
-  /*! Få 100vh på headeren */
+  /*! Få 100vh på headeren. Døne */
 
   nav {
     height: 100%;
@@ -657,10 +658,10 @@ footer a {
     margin-left: 2em;
   }
   article.header_text2 {
-    margin-top: 1em;
+    margin-top: 1vw;
   }
   article.header_text2 p {
-    transform: translateY(0);
+    transform: translateY(-1vw);
   }
 
   section {
@@ -673,7 +674,7 @@ footer a {
 @media (min-width: 900px) {
   article.header_text2 {
     width: 500px;
-    margin-top: -0.5em;
+    margin-top: -0.5vw;
   }
 }
 

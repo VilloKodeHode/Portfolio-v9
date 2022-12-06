@@ -124,6 +124,7 @@ h1 {
   letter-spacing: 1vw;
   font-size: 5vw;
   text-align: left;
+  margin-top: 1em;
 }
 
 h2 {
@@ -327,7 +328,7 @@ header img.hero {
   background-color: #12003e94;
   /* border-bottom-left-radius: 50%;
   border-top-right-radius: 20%; */
-  transform: translate(0vw, 2vw);
+  transform: translate(0vw, -1vw);
 }
 
 /*//////////////////////////////*/
@@ -640,11 +641,11 @@ footer a {
     margin-bottom: 10px;
   }
 
-  nav img {
+  /* nav img {
     top: 1%;
     left: 20%;
     height: 5em;
-  }
+  } */
 
   header {
     padding-left: 135px;

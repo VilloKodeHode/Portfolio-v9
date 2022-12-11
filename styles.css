@@ -573,17 +573,22 @@ p.description {
   margin-bottom: 15vw;
 }
 
-div.project_wrapper {
-  position: absolute;
+div.projects_wrapper {
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .container-4 div.wrapper {
   flex-direction: column;
   transition: 0.5s ease-in-out;
+  /* position: absolute; */
 }
 .container-4 figure.img_wrap {
   /* grid-row-start: 2; */
   /* position: absolute; */
+  margin: 1em;
   border: 1px solid #eecb52;
   box-shadow: 0 0 20px #eecb52;
   transition: 0.45s ease;
@@ -598,8 +603,12 @@ div.project_wrapper {
   transition: 0.5s ease-in-out;
   margin: 0.5em;
   height: 10em;
+  width: 10em;
   /* border: 1px solid #9bb6ff; */
   box-shadow: 0 0 20px #eecb52;
+}
+
+.container-4 div.wrapper a {
 }
 
 .container-4 div.wrapper a > :hover {

@@ -592,7 +592,8 @@ div.projects_wrapper {
   border: 1px solid #eecb52;
   box-shadow: 0 0 20px #eecb52;
   transition: 0.45s ease;
-  width: fit-content;
+  width: 250px;
+  height: 420px;
 }
 
 .container-4 p {
